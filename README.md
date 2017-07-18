@@ -25,13 +25,16 @@ web page for more details and maps.
 
 ## Dependencies
 
-The major dependency is [XMLStarlet](http://xmlstar.sourceforge.net/), a command
-line utility to process XML data.
+* [XMLStarlet](http://xmlstar.sourceforge.net/) for processing XML data on the
+  command line.
 
-You will also need [curl](https://curl.haxx.se/) for retrieving earthquake data
-in XML format from the web.
+* [curl](https://curl.haxx.se/) for retrieving earthquake data in XML format
+  from the web.
 
-Both of them can be easily installed on any major GNU/Linux distribution.
+* [AWK](https://en.wikipedia.org/wiki/AWK), a program that you can use to select
+  particular records in a file and perform operations upon them.
+
+All of them can be easily installed on any major GNU/Linux distribution.
 
 ## Disclaimer
 
