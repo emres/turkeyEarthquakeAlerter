@@ -20,3 +20,9 @@ relevant web page for more details and maps.
 
 The major dependency is [XMLStarlet](http://xmlstar.sourceforge.net/), a command
 line utility to process XML data.
+
+## Disclaimer
+
+I'm neither a geologist, nor a geophysicist. This program is not intended for
+accurate, scientific use. Moreover, this program is **not** an early warning
+system. Use at your own risk.
