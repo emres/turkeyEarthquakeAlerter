@@ -6,14 +6,14 @@ A minimalist earthquake alerter for Turkey.
 
     ./earthquakeAlert.sh <magnitude_threshold>
     
-Example
+For example
 
     ./earthquakeAlert.sh 3.0
     
 will retrieve data
 from [Kandilli Observatory](http://www.koeri.boun.edu.tr/eew/index.htm) and
-print a warning window if there's been an earthquake whose magnitude is greater
-than **3.0**.
+display a warning window if there's been an earthquake in the last 24 hours
+whose magnitude is greater than **3.0**.
 
 If the user clicks OK, she will be taken to the Kandilli Observatory's relevant
 web page for more details and maps.
