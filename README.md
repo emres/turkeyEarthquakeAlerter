@@ -1,5 +1,4 @@
 # Turkey Earthquake Alerter
-
 A minimalist earthquake alerter for Turkey.
 
 ## Usage
@@ -35,6 +34,11 @@ web page for more details and maps.
   particular records in a file and perform operations upon them.
 
 All of them can be easily installed on any major GNU/Linux distribution.
+
+## Ideas
+Put this program in your **crontab**, e.g. to run every minute, so that you'll
+be warned if a recent earthquake whose magnitude is bigger than the threshold
+you defined happened.
 
 ## Disclaimer
 
