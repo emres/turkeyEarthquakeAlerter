@@ -24,7 +24,7 @@ paste -d, <(xmlstarlet select -t -v "eqlist/earhquake/@name" $TMP_DIR/24.xml) \
     | awk "$AWK_COMMAND" \
     > $TMP_DIR/magnitudes_over_threshold.txt
 
-EARTHQUAKE=$(sort -b -r -t, -k3 $TMP_DIR/big_magnitudes.txt | head -n1)
+EARTHQUAKE=$(sort -b -r -t, -k3 $TMP_DIR/magnitudes_over_threshold.txt | head -n1)
 
 if [ -s $TMP_DIR/magnitudes_over_threshold.txt ]; then
     BUTTON=$(xmessage -buttons Ok:0,Cancel:2 -default Ok \
