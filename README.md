@@ -28,6 +28,11 @@ web page for more details and maps.
 The major dependency is [XMLStarlet](http://xmlstar.sourceforge.net/), a command
 line utility to process XML data.
 
+You will also need [curl](https://curl.haxx.se/) for retrieving earthquake data
+in XML format from the web.
+
+Both of them can be easily installed on any major GNU/Linux distribution.
+
 ## Disclaimer
 
 I'm neither a geologist, nor a geophysicist. This program is not intended for
