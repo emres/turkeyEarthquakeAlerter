@@ -8,13 +8,15 @@ A minimalist earthquake alerter for Turkey.
     
 Example
 
-    ./earthquakeAlert.sh 4.0
+    ./earthquakeAlert.sh 3.0
     
-will retrieve data from [Kandilli
-Observatory](http://www.koeri.boun.edu.tr/eew/index.htm) and print a
-warning window if there's been an earthquake whose magnitude is greater than
-*4.0*. If the user clicks OK, she will be taken to the Kandilli Observatory's
-relevant web page for more details and maps.
+will retrieve data
+from [Kandilli Observatory](http://www.koeri.boun.edu.tr/eew/index.htm) and
+print a warning window if there's been an earthquake whose magnitude is greater
+than **3.0**.
+
+If the user clicks OK, she will be taken to the Kandilli Observatory's relevant
+web page for more details and maps.
 
 ## Screenshot
 
@@ -30,4 +32,4 @@ line utility to process XML data.
 
 I'm neither a geologist, nor a geophysicist. This program is not intended for
 accurate, scientific use. Moreover, this program is **not** an early warning
-system. Use at your own risk.
+system.
